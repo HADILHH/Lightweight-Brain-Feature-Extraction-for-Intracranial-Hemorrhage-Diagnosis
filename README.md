@@ -67,7 +67,8 @@ ICH-Project/
 ## 6. Installation
 
 ```bash
-7. Run Training
 pip install -r requirements.txt
 python train_model.py
+python predict_single_image.py
+
 
