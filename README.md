@@ -42,3 +42,32 @@ The proposed pipeline consists of:
 ---
 
 ## 4. Project Structure
+ICH-Project/
+│
+├── preprocessing/
+├── extract_features.py
+├── train_model.py
+├── predict_single_image.py
+├── ich_gui.py
+├── requirements.txt
+└── README.md
+
+---
+
+## 5. Models Implemented
+
+- Support Vector Machine (SVM)
+- Artificial Neural Network (ANN)
+- Random Forest (RF)
+- Logistic Regression
+- CNN (for comparison)
+
+---
+
+## 6. Installation
+
+```bash
+7. Run Training
+pip install -r requirements.txt
+python train_model.py
+
